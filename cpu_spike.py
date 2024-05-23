@@ -1,7 +1,7 @@
 import time
 
 def simulate_cpu_spike(duration=30, cpu_percent=80):
-    print(f"Simulating CPU spike at {cpu_percent}%...")
+    print(f"Simulating CPU spike at {cpu_percent}%...")# f will print the cpu percent value at runtime
     start_time = time.time()
 
     # Calculate the number of iterations needed to achieve the desired CPU utilization
